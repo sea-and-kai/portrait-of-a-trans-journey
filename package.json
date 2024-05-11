@@ -1,0 +1,21 @@
+{
+  "name": "trans-journey-portrait",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^7.1.0",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^5.0.0",
+    "gulp-pug": "^5.0.0",
+    "jstransformer-markdown-it": "^3.0.0"
+  }
+}

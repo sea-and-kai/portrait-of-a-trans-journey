@@ -1,0 +1,13 @@
+## Clarity
+
+In May of 2024 I finished coming out with my family. As of writing this that's actually only a few weeks ago. There was a 2 1/2 year gap between when I told my parents that I'm queer and when I told them I'm trans.
+
+Finding the clarity of mind to finish the job was no easy task. A lot of things that I do in my life I do by gut feeling. I wait until until my gut tells me I'm ready and then I get the task done. Since the winter time I had known, I was approaching a state of readiness to talk to them. However, I found myself frequently choked up and overwhelmed with emotions when I started to prepare what I would say to them.
+
+Telling my parents that I was queer was orders of magnitude easier than it felt to tell them that I was trans. For a very long time I have wished that I was just gay. Growing up in the 90s, there were not a lot of great models for gender non-conforming people in the media or public. My mind was filled with worry that if I only told my parents without showing them who I am their mind would race to the same kind of negative images and associations I had grown up with. I was worried that all the skeptical anti-trans journalism would shape too much of their opinion. I worried that if I showed them first without telling them it would come as a shock and make starting a grounded conversation difficult.
+
+I didn't really get over those fears before calling them one Sunday. I think I just got exhausted by worrying about those things and my gut finally told me I was ready enough champion through what I needed to say. 
+
+The news was as well recieved as one could expect from family. Telling them I was queer a few years prior had helped give them time to adjust, learn more on their own and be prepared to hear these things. We planned to meet for dinner at a restaurant 2 days later and finished delivering all pertinent information, with time for Q&amp;A. I also sent them pictures of myself immediately after the phone call, just so there was no extended period of time spent wondering what they would see. 
+
+It's really hard to put into words what coming out to a supportive family feels like. After finishing the job I had a moment of confusion where I almost didnt know what to do next. So much of my mind has been occupied by this problem, it was like having new free time I didn't know what to do with. In the coming days I saw what that empty space made room for though. A sense of balance, and control over my life. I felt like my parents' child again instead of a failed project. With that feeling has some a greater capacity to share love, passion, and gratitude.
