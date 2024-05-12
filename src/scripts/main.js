@@ -4,70 +4,70 @@ const game = {
             id: "1",
             title: "🤔 Where to begin",
             happyScore: 5,
-            empowermentScore: 5,
+            qualityScore: 10,
             humorScore: 5
         },
         {
             id: "2",
             title: "🤫 Discretion",
             happyScore: 2,
-            empowermentScore: 2,
+            qualityScore: 6,
             humorScore: 5
         },
         {
             id: "3",
             title: "👹 Fear",
             happyScore: 1,
-            empowermentScore: 1,
+            qualityScore: 5,
             humorScore: 5
         },
         {
             id: "4",
             title: "🫂 Friendship",
             happyScore: 10,
-            empowermentScore: 5,
+            qualityScore: 3,
             humorScore: 5
         },
         {
             id: "5",
             title: "👩‍🏫 Mentors",
             happyScore: 8,
-            empowermentScore: 8,
+            qualityScore: 4,
             humorScore: 5
         },
         {
             id: "6",
             title: "🌐 Community",
             happyScore: 7,
-            empowermentScore: 9,
+            qualityScore: 1,
             humorScore: 5
         },
         {
             id: "7",
             title: "🤛 Pay It Forward",
             happyScore: 4,
-            empowermentScore: 4,
+            qualityScore: 2,
             humorScore: 5
         },
         {
             id: "8",
             title: "🏃 Chasers",
             happyScore: 3,
-            empowermentScore: 3,
+            qualityScore: 8,
             humorScore: 5
         },
         {
             id: "9",
             title: "🔼 Love and Triangles",
             happyScore: 6,
-            empowermentScore: 2,
+            qualityScore: 9,
             humorScore: 5
         },
         {
             id: "10",
             title: "🔮 Clarity",
             happyScore: 9,
-            empowermentScore: 10,
+            qualityScore: 7,
             humorScore: 5
         }
     ],
@@ -152,14 +152,13 @@ function setHiddenStateForVisitedSections(isHidden) {
 
 function bindSortButtons() {
     const happyButton = document.getElementById('happy-sort');
-    happyButton.onclick = function () {
-        sortSectionsByHappyScoreDesc();
-    };
+    happyButton.onclick = sortSectionsByHappyScoreDesc;
 
     const defaultButton = document.getElementById('default-sort');
-    defaultButton.onclick = function () {
-        sortSectionsByDefault();
-    };
+    defaultButton.onclick = sortSectionsByDefault;
+
+    const qualityButton = document.getElementById('quality-sort');
+    qualityButton.onclick = sortSectionsByQualityScoreDesc;
 }
 
 function bindDoneButton() {
@@ -272,6 +271,11 @@ function sortSectionsByDefault() {
 
 function sortSectionsByHappyScoreDesc() {
     game.sections.sort((a, b) => b.happyScore - a.happyScore);
+    reapplyButtonPositions();
+}
+
+function sortSectionsByQualityScoreDesc() {
+    game.sections.sort((a, b) => b.qualityScore - a.qualityScore);
     reapplyButtonPositions();
 }
 
