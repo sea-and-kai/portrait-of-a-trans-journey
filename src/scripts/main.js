@@ -25,14 +25,14 @@ const game = {
             id: "4",
             title: "🫂 Friendship",
             happyScore: 10,
-            qualityScore: 3,
+            qualityScore: 4,
             humorScore: 5
         },
         {
             id: "5",
             title: "👩‍🏫 Mentors",
             happyScore: 8,
-            qualityScore: 4,
+            qualityScore: 3,
             humorScore: 5
         },
         {
@@ -44,7 +44,7 @@ const game = {
         },
         {
             id: "7",
-            title: "🤛 Pay It Forward",
+            title: "🤛 Paying It Forward",
             happyScore: 4,
             qualityScore: 2,
             humorScore: 5
