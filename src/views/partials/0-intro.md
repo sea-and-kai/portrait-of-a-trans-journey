@@ -6,7 +6,7 @@
 
 It is sometimes hard to share my experience with people, either because the subject matter is too heavy to bring up in casual conversation, or the questions are never really asked. There remain things I would like to share, or would at least like to give friends and family the option to learn about so that you might understand me better.
 
-### This story is divided into many segments.
+### These short essays are divided into many segments.
 You can read them in a chronological order, or sort them by happiness score, or writing quality score, which is my personal assessment of what writings were most inspired. I don't necessarily think that chronology is as important as following curiosity and mood.
 
 You may read however many short essays as you'd like to earn badges. Just hit the "I'm Done" button at the bottom for a conclusion.
