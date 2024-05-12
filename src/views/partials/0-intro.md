@@ -1,8 +1,6 @@
 ## Introduction
 
-**NSFW Content Warning** This is an interactive storytelling experiment with strong adult themes including explicit language, discussions of sexual orientation and gender, trans misogyny, queer hookup culture and more.
-
-|| CONTINUE >>>
+**Content Warning** This is an interactive storytelling experiment with strong adult themes including explicit language, discussions of sexual orientation and gender, trans misogyny, queer hookup culture and more.
 
 ### This is dedicated to my friends and family who have been supportive to me throughout this 
 
@@ -18,5 +16,3 @@ Thank you for taking the time to see me
 Kai
 
 p.s. The names of people have all been changed out of respect for their privacy
-
-|| CONTINUE >>>

@@ -3,9 +3,6 @@ import less from 'gulp-less';
 import babel from 'gulp-babel';
 import concat from 'gulp-concat';
 import pug from 'gulp-pug';
-// var uglify = require('gulp-uglify');
-// var rename = require('gulp-rename');
-// var cleanCSS = require('gulp-clean-css');
 import { deleteAsync } from 'del';
 
 var paths = {
@@ -19,7 +16,7 @@ var paths = {
   },
   views: {
     src: 'src/views/*.pug',
-    watch: 'src/views/**/*.pug',
+    watch: ['src/views/**/*.pug', 'src/views/**/*.md'],
     dest: 'dist/'
   }
 };

@@ -1,8 +1,122 @@
+@blue: #5bcefa;
+@pink: #f5a9b8;
+@white: #ffffff;
+@gray: #56666b;
+@vanilla: #eee1b3;
+
 body {
     background-color: #F0F0F0;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+    line-height: 150%;
 }
 
+@media screen { 
+    @media (max-width: 600pt), (max-device-width: 600pt) {
+        body {
+            width: 90%;
+        }
+    }
+}
 
-span {
-    color: black;
+#story-sections {
+    transition: max-height 0.5s linear;
+    overflow: hidden;
+    max-height: 10000px;
+}
+
+button {
+    font-family: Montserrat, sans-serif;
+    color: @white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 1%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+#button-options button{
+    background-color: @vanilla;
+    color: @gray;
+}
+
+#essay-buttons-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#essay-buttons-container button {
+    background-color: @blue;
+    width: 48%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    //trasition position
+    transition: all 0.5s linear;
+    transition-property: top, left, opacity;
+
+    &:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    &.visited {
+        background-color: @pink;
+    }
+}
+
+button#outro-button {
+    position: relative;
+    width: 99%;
+    background-color: @gray;
+}
+
+#progress {
+    margin: 0 1%;
+}
+
+#completion-bar {
+    width: 100%;
+    height: 10px;
+    background-color: @gray;
+    position: relative;
+    margin-top: 20px;
+
+    #progress-bar {
+        width: 50%;
+        height: 100%;
+        background-color: @blue;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: width 0.5s linear;
+    }
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#checkbox-label {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#checkbox-label::before {
+    content: "🔲";
+}
+
+input[type="checkbox"]:checked+#checkbox-label::before {
+    content: "☑️";
 }

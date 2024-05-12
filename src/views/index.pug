@@ -2,8 +2,53 @@ doctype html
 html
     head
         title="Portrait of a Trans Journey"
+        link(rel="stylesheet", href="./styles/main.css")
     body
-        h1 Hello from pug
+        header
+            h1 🏳️‍⚧️ Portrait of a Trans Journey
+        #story-sections
+            section#intro
+                include:markdown-it partials/0-intro.md
+            section#1
+                include:markdown-it partials/1-where-to-begin.md
+            section#2
+                include:markdown-it partials/2-discretion.md
+            section#3
+                include:markdown-it partials/3-fear.md
+            section#4
+                include:markdown-it partials/4-friendship.md
+            section#5
+                include:markdown-it partials/5-mentors.md
+            section#6 
+                include:markdown-it partials/6-community.md
+            section#7
+                include:markdown-it partials/7-pay-it-forward.md
+            section#8
+                include:markdown-it partials/8-chasers.md
+            section#9
+                include:markdown-it partials/9-love-and-triangles.md
+            section#10
+                include:markdown-it partials/10-clarity.md
+            section#outro
+                include:markdown-it partials/11-outro.md
+                button#return Return to Beginning
+        #buttons
+            #button-options
+                button#default-sort Sort by Default
+                button#happy-sort Sort by Happiest First
+                input(type="checkbox", id="hide-visited")
+                label#checkbox-label
+                span Hide Visited Essays
+                button#reset Reset Progress
 
-        include partials/footer.pug
-        include:markdown-it partials/markdownTest.md
+            #essay-buttons-container 
+            
+            #progress
+                h5 Progress:
+                #completion-bar
+                    #progress-bar
+
+            button#outro-button ✅ I'm Done
+
+        footer
+            include partials/footer
