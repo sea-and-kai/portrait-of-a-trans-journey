@@ -46,14 +46,18 @@ button {
     box-sizing: border-box;
 }
 
-#button-options button{
+#button-options button {
     background-color: @vanilla;
     color: @gray;
+
+    &:hover {
+        background-color: @pink;
+    }
 }
 
 #essay-buttons-container {
     position: relative;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 #essay-buttons-container button {
@@ -67,12 +71,62 @@ button {
     transition: all 0.5s linear;
     transition-property: top, left, opacity;
 
+    &:hover {
+        background-color: @gray;
+    }
+
     &:nth-child(2n) {
         margin-right: 0;
     }
 
+    span.icon {
+        display: none;
+    }
+
     &.visited {
         background-color: @pink;
+
+        span.icon {
+            display: block;
+        }
+    }
+}
+
+span.icon {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: @white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#badges .icon {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    transition: top 0.2s linear;
+    &:hover {
+        background-color: @pink;
+        cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🏆</text></svg>") 16 0,auto; /*!emojicursor.app*/
+        top: -20px;
+    }
+}
+
+@media screen { 
+    @media (max-width: 600pt), (max-device-width: 600pt) {
+        #essay-buttons-container button {
+            font-size: 20pt;
+        }
     }
 }
 
@@ -112,10 +166,11 @@ input[type="checkbox"] {
     display: inline-block;
     width: 40px;
     height: 40px;
+    margin-right: 10px;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
-    cursor: pointer;
+    cursor: ;
 }
 
 #checkbox-label::before {

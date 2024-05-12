@@ -18,5 +18,5 @@ Every mind is different and some flower buds will bloom more naturally than othe
 My from personal experience, I didn't water areas of my garden that were important to me until I gave myself permission to try. I didn't even fully understand how special this part of my garden was until I tried. I couldn't see that the colors of the blooming flowers were more representative of me until they had recieved a little water.
 
 ```
-💦 ➡️ 🌱 ➡️ 💥 ➡️ 🌺
+🌊 ➡️ 🌱 ➡️ 💥 ➡️ 🌺
 ```

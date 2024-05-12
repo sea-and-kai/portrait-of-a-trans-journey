@@ -2,73 +2,73 @@ const game = {
     sections: [
         {
             id: "1",
-            title: "🤔 Where to begin",
+            title: "Where to begin",
             happyScore: 5,
             qualityScore: 10,
-            humorScore: 5
+            icon: "🤔"
         },
         {
             id: "2",
-            title: "🤫 Discretion",
+            title: "Discretion",
             happyScore: 2,
             qualityScore: 6,
-            humorScore: 5
+            icon: "🤫"
         },
         {
             id: "3",
-            title: "👹 Fear",
+            title: "Fear",
             happyScore: 1,
             qualityScore: 5,
-            humorScore: 5
+            icon: "👹"
         },
         {
             id: "4",
-            title: "🫂 Friendship",
+            title: "Friendship",
             happyScore: 10,
             qualityScore: 4,
-            humorScore: 5
+            icon: "🫂"
         },
         {
             id: "5",
-            title: "👩‍🏫 Mentors",
+            title: "Mentors",
             happyScore: 8,
             qualityScore: 3,
-            humorScore: 5
+            icon: "👩‍🏫"
         },
         {
             id: "6",
-            title: "🌐 Community",
+            title: "Community",
             happyScore: 7,
             qualityScore: 1,
-            humorScore: 5
+            icon: "🌐"
         },
         {
             id: "7",
-            title: "🤛 Paying It Forward",
+            title: "Paying It Forward",
             happyScore: 4,
             qualityScore: 2,
-            humorScore: 5
+            icon: "🤛"
         },
         {
             id: "8",
-            title: "🏃 Chasers",
+            title: "Chasers",
             happyScore: 3,
             qualityScore: 8,
-            humorScore: 5
+            icon: "🏃"
         },
         {
             id: "9",
-            title: "🔼 Love and Triangles",
+            title: "Love and Triangles",
             happyScore: 6,
             qualityScore: 9,
-            humorScore: 5
+            icon: "🔼"
         },
         {
             id: "10",
-            title: "🔮 Clarity",
+            title: "Clarity",
             happyScore: 9,
             qualityScore: 7,
-            humorScore: 5
+            icon: "🔮"
         }
     ],
     currentSection: "intro",
@@ -129,7 +129,7 @@ function bindCheckboxElement() {
         setHiddenStateForVisitedSections(checkbox.checked);
     };
 
-    const checkboxLabel = document.getElementById('checkbox-label');
+    const checkboxLabel = document.getElementById('hide-checkbox-section');
     checkboxLabel.onclick = function () {
         const isHidden = !game.shouldHideVisitedSections;
         checkbox.checked = isHidden;
@@ -168,20 +168,33 @@ function bindDoneButton() {
         showSection('outro');
         scrollToTop();
         document.getElementById('buttons').style.display = 'none';
+
+        let badgesSection = document.getElementById('badges');
+        // iterate over visited sections and add a badge for each
+        for (let i = 0; i < game.visitedSections.length; i++) {
+            const sectionId = game.visitedSections[i];
+            const section = game.sections.find(section => section.id === sectionId);
+            const badge = document.createElement('span');
+            badge.classList.add('icon');
+            badge.textContent = section.icon;
+            badgesSection.appendChild(badge);
+        }
+
+        document.getElementById('badges-count').textContent = game.visitedSections.length;
     };
 }
 
 function bindResetButton() {
-    function reset() {
+    const resetButton = document.getElementById('reset');
+    resetButton.onclick = function() {
         localStorage.clear();
         location.reload();
-    }
-
-    const resetButton = document.getElementById('reset');
-    resetButton.onclick = reset;
+    };
 
     const returnButton = document.getElementById('return');
-    returnButton.onclick = reset;
+    returnButton.onclick = function() {
+        location.reload();
+    };
 }
 
 function evaluateButtonVisibilityStates() {
@@ -223,6 +236,12 @@ function createButtonElement(title, sectionId, index) {
         updateProgressBar();
         saveToLocalStorage();
     };
+
+    const icon = document.createElement('span');
+    icon.textContent = game.sections[index].icon;
+    icon.classList.add('icon');
+    button.appendChild(icon);
+
     return button;
 }
 

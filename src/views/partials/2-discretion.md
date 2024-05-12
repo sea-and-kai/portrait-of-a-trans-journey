@@ -4,7 +4,7 @@
 ### "Do you live alone"
 ### "Do your neighbours know?"
 
-Once upon a time I was all too familiar with regularly tolerating these questions from people, because I was closeted too. These days the word "discreet" is complete repellant. Over a period of exploration I quickly came to recognize that there was so much trouble with discretion I never really understood from the outside. I'll give a reasons why:
+Once upon a time I was all too familiar with regularly tolerating these questions from people, because I was closeted too. These days the word "discreet" is complete repellant. Over a period of exploration I quickly came to recognize that there was so much trouble with discretion I never really understood from the outside. I'll give a few reasons why:
 
 #### 1. Meeting sketchier people
 
@@ -16,7 +16,7 @@ There are people out there looking to prey on discretion and inexperience. It do
 
 #### 3. Discreet people don't test
 
-There is a strong correlation between discretion and not taking sexual health seriously. For example: A married man who is discreetly looking for sex with other men and trans women is not telling his doctor about his sexual activity. He is not getting regular STI checks, he is not taking HIV prevention medication. He is discreet, and all of these things need names, identification, phone calls, paper trail etc..
+There is a strong correlation between discretion and not taking sexual health seriously. For example: A married man who is discreetly looking for queer sex is not telling his doctor about his sexual activity. He is not getting regular STI checks, he is not taking HIV prevention medication. He is discreet, and all of these things need names, identification, phone calls, paper trail etc..
 
 #### 4. Discreet folks frequently reinforce homophobias and transphobias
 
@@ -24,6 +24,6 @@ If you are still in the closet you are likely wrestling with a lot of challenges
 
 ### Moving on from that...
 
-I don't think this is a particularly exhaustive list of all the problems with discretion, but it's enough to paint a clear picture why being out is safer for one's mental and physical health. It really didn't take a long time for me to recognize that maintaining discretion was not the path for me. It was wrought with both moments of elation and absolute despair. The elation came when things went well and the despair came when things went poorly. I recognized that I was not going to receive the best treatment from people as long as I hid in the shadows. 
+I don't think this is a particularly exhaustive list of all the problems with discretion, but it's enough to paint a clear picture why being out is safer for one's mental and physical health. It really didn't take a long time for me to recognize that maintaining discretion was not the path for me. It had many moments of elation but also many wrought with absolute despair. The elation came when things went well and the despair came when things went poorly. I recognized that I was not going to receive the best treatment from people as long as I hid in the shadows. 
 
 This was a really important first step to growing into my pride. Self worth is something that can really take a huge hit when exploring orientation and/or gender identity. Recognizing that I deserved better than this and that my orientation/identity were not a valid excuse for being mistreated was a profound step forward.

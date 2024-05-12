@@ -30,6 +30,11 @@ html
             section#10
                 include:markdown-it partials/10-clarity.md
             section#outro
+                #badges
+                    h3 
+                        span Badges Earned:&nbsp;
+                        span#badges-count 
+                        span /10
                 include:markdown-it partials/11-outro.md
                 button#return Return to Beginning
         #buttons
@@ -38,9 +43,10 @@ html
                 button#happy-sort Sort by Happiest First
                 button#quality-sort Sort by Writing Quality
                 div
-                    input(type="checkbox", id="hide-visited")
-                    label#checkbox-label
-                    span Hide Visited Essays
+                    #hide-checkbox-section
+                        input(type="checkbox", id="hide-visited")
+                        label#checkbox-label
+                        span Hide Visited Essays
                     button#reset Reset Progress
 
             #essay-buttons-container 
